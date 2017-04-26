@@ -1,0 +1,48 @@
+doctype html
+
+html
+    head
+        title ChitChat
+        script(src='/socket.io/socket.io.js')
+        script(src='scripts/jquery-3.2.0.js')
+        script(src='scripts/Main.js')
+        script(src='scripts/ChitChat.js')
+        link(rel='stylesheet', type='text/css', href='styles/ChitChat.css')
+        link(rel='stylesheet', type='text/css', href='styles/animate.css')
+    body
+        h1
+            p Welcome to ChitChat!
+        h2 Send Message:
+        br
+        hr
+        br        
+        div(id="input")
+            textarea(id="message", placeholder="Write Message", rows="4", cols="50")
+            br
+            button(id="sendButton", type="button") Send
+        br
+        hr
+        br
+        table
+            thead
+                tr
+                    th Conversation
+                    th Online
+            tbody
+                tr
+                    td(align="center")
+                        table(id="conversationTable", border="1", class="tablesorter")
+                            thead
+                                tr
+                                    th Name
+                                    th Message
+                                    th Date
+                            tbody
+                    td(align="center")
+                        table(id="onlineTable", border="1", class="tablesorter")
+                            thead
+                                tr
+                                    th(id="onlineCount") 0 People Online
+                            tbody
+
+        

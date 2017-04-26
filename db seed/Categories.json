@@ -1,0 +1,50 @@
+[
+    {"_id" : "1", "Name" : "Bakery", "Parent" : "0", "ChildrenCategories" : ["2"], "ChildrenItems" : [], "imageURL" : "images/bakery/main.png"},
+    {"_id" : "2", "Name" : "Gourmet", "Parent" : "1", "ChildrenCategories" : [], "ChildrenItems" : ["20"], "imageURL" : "images/bakery/gourmet/main.png"},
+    {"_id" : "3", "Name" : "Book store", "Parent" : "0", "ChildrenCategories" : ["4"], "ChildrenItems" : [], "imageURL" : "images/book store/main.png"},
+    {"_id" : "4", "Name" : "Stationary", "Parent" : "3", "ChildrenCategories" : [], "ChildrenItems" : ["21"], "imageURL" : "images/book store/Stationary/main.png"},
+    {"_id" : "5", "Name" : "Pharmacy ", "Parent" : "0", "ChildrenCategories" : ["6"], "ChildrenItems" : [], "imageURL" : "images/pharmacy/main.png"},
+    {"_id" : "6", "Name" : "Pain killers", "Parent" : "5", "ChildrenCategories" : [], "ChildrenItems" : ["22"], "imageURL" : "images/pharmacy/pain killers/main.png"},
+    {"_id" : "7", "Name" : "Fresh Produced", "Parent" : "0", "ChildrenCategories" : ["8","9"], "ChildrenItems" : [], "imageURL" : "images/Fresh Produced/main.png"},
+    {"_id" : "8", "Name" : "Vegetables", "Parent" : "7", "ChildrenCategories" : [], "ChildrenItems" : ["1"], "imageURL" : "images/Fresh Produced/Vegetables/main.png"},
+    {"_id" : "9", "Name" : "Fruits", "Parent" : "7", "ChildrenCategories" : [], "ChildrenItems" : ["2"], "imageURL" : "images/Fresh Produced/Fruits/main.png"},
+    {"_id" : "10", "Name" : "Super Market", "Parent" : "0", "ChildrenCategories" : ["11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27"], "ChildrenItems" : [], "imageURL" : "images/Super Market/main.jpg"},
+    {"_id" : "11", "Name" : "Beverages", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["3"], "imageURL" : "images/Super Market/beverages/main.png"},
+    {"_id" : "12", "Name" : "Frozen", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["4"], "imageURL" : "images/Super Market/frozen/main.png"},
+    {"_id" : "13", "Name" : "Baking", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["5"], "imageURL" : "images/Super Market/baking/main.png"},
+    {"_id" : "14", "Name" : "Snacks", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["6"], "imageURL" : "images/Super Market/snacks/main.png"},
+    {"_id" : "15", "Name" : "Other items", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["7"], "imageURL" : "images/Super Market/other items/main.png"},
+    {"_id" : "16", "Name" : "Cleaners", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["8"], "imageURL" : "images/Super Market/cleaners/main.png"},
+    {"_id" : "17", "Name" : "Pets", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["9"], "imageURL" : "images/Super Market/pets/main.png"},
+    {"_id" : "18", "Name" : "Paper goods", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["10"], "imageURL" : "images/Super Market/paper goods/main.png"},
+    {"_id" : "19", "Name" : "Canned food", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["11"], "imageURL" : "images/Super Market/canned food/main.png"},
+    {"_id" : "20", "Name" : "Personal care", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["12"], "imageURL" : "images/Super Market/personal care/main.png"},
+    {"_id" : "21", "Name" : "Breakfast&dairy", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["13"], "imageURL" : "images/Super Market/breakfast&dairy/main.png"},
+    {"_id" : "22", "Name" : "Condiments&sauces", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["14"], "imageURL" : "images/Super Market/Condiments&sauces/main.png"},
+    {"_id" : "23", "Name" : "Meat&seafood", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["15"], "imageURL" : "images/Super Market/meat&seafood/main.png"},
+    {"_id" : "24", "Name" : "Pantry supplies", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["16"], "imageURL" : "images/Super Market/pantry supplies/main.png"},
+    {"_id" : "25", "Name" : "Beans&legumes", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["17"], "imageURL" : "images/Super Market/beans&legumes/main.png"},
+    {"_id" : "26", "Name" : "Baby items", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["18"], "imageURL" : "images/Super Market/baby items/main.png"},
+    {"_id" : "27", "Name" : "Pasta&noodle", "Parent" : "10", "ChildrenCategories" : [], "ChildrenItems" : ["19"], "imageURL" : "images/Super Market/pasta&noodles/main.png"}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
